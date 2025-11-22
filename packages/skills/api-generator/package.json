@@ -1,0 +1,11 @@
+{
+  "name": "@ai-labs-claude-skills/api-generator",
+  "version": "1.0.0",
+  "description": "Claude AI skill: api-generator",
+  "main": "index.js",
+  "files": [
+    "."
+  ],
+  "license": "MIT",
+  "author": "AI Labs"
+}

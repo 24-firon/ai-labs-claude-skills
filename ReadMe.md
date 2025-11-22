@@ -50,20 +50,66 @@ npm i ai-labs-claude-skills@latest
 - Helpers to create packages/index files: create-packages.js, generate-index-files.js
 - Skills directory: packages/skills/ (each skill contains scripts, assets, and a SKILL.md)
 
+## 📚 Available Skills
+
+All skills are organized by category for easy discovery:
+
+### 🚀 Development & DevOps
+- **`api-generator`** - REST/GraphQL API generation with OpenAPI/Swagger documentation and best practices ⭐ NEW
+- **`security-auditor`** - Comprehensive security analysis, OWASP Top 10 checks, and vulnerability assessment ⭐ NEW
+- **`performance-optimizer`** - Performance profiling, bottleneck identification, and optimization strategies ⭐ NEW
+- **`database-designer`** - Database schema design, migration generation, and ER diagram creation ⭐ NEW
+- **`kubernetes-deployer`** - Kubernetes manifest generation, Helm charts, and container orchestration ⭐ NEW
+- **`cicd-pipeline-generator`** - Automated CI/CD pipeline configuration for GitHub Actions, GitLab CI, Jenkins, and more
+- **`docker-containerization`** - Docker container setup, Dockerfile generation, and orchestration configurations
+- **`codebase-documenter`** - Automatic documentation generation for codebases (API docs, README, architecture diagrams)
+- **`test-specialist`** - Test generation, bug analysis, and testing pattern implementation
+- **`tech-debt-analyzer`** - Technical debt analysis, ADR generation, and debt register management
+
+### 📊 Data & Analytics
+- **`data-analyst`** - Data cleaning, analysis, and statistical modeling with imputation methods
+- **`csv-data-visualizer`** - CSV data visualization with charts and interactive dashboards
+- **`business-analytics-reporter`** - Business analytics reports with frameworks and visualization guides
+
+### 📝 Business & Documentation
+- **`business-document-generator`** - Generate business plans, proposals, and budgets
+- **`pitch-deck`** - Create compelling pitch decks with best practices
+- **`research-paper-writer`** - Academic paper writing with IEEE/ACM formatting
+- **`resume-manager`** - Professional resume creation and optimization
+- **`finance-manager`** - Financial analysis, budgeting, and reporting
+
+### 🎨 Design & Marketing
+- **`brand-analyzer`** - Brand analysis, guidelines creation, and brand archetype identification
+- **`frontend-enhancer`** - UI/UX improvements with design principles and color palettes
+- **`seo-optimizer`** - SEO analysis, metadata generation, schema markup, and sitemap creation
+- **`social-media-generator`** - Social media content for Facebook, LinkedIn, Instagram, Twitter
+
+### 📄 Document Processing
+- **`document-skills`** - Comprehensive document handling:
+  - **pdf** - PDF creation, parsing, and form handling
+  - **docx** - Word document generation with OOXML
+  - **xlsx** - Excel spreadsheet automation
+  - **pptx** - PowerPoint presentation creation
+
+### 🎬 Creative & Content
+- **`script-writer`** - Screenplay and script writing with proper formatting
+- **`storyboard-manager`** - Story structure and character development
+- **`travel-planner`** - Travel itinerary planning with cultural etiquette guides
+- **`nutritional-specialist`** - Nutrition planning and dietary analysis
+
+### 🤖 Productivity
+- **`personal-assistant`** - Personal productivity and task management
+- **`startup-validator`** - Startup idea validation with frameworks and research templates
+
 ## 🧠 Example Use Cases
 
-- Use these Claude “skills” to automate and extend your workflows:
+- Use these Claude "skills" to automate and extend your workflows:
 
 1. 🔍 SEO report and metadata generation
-
 2. 🧾 Document unpacking and validation
-
 3. 🧱 Docker container creation and setup
-
 4. 🧠 Resume or report generation scripts
-
 5. ⚙️ CI/CD pipeline auto-generation
-
 6. 📊 Developer project automation utilities
 
 ## 🤝 Contributing
